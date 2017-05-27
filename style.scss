@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $lato;
   color: $darkGray;
 }
 
@@ -31,8 +31,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -65,15 +63,16 @@ h4 {
 }
 
 p {
-  margin: 15px 0;
+  margin: 0 0;
 }
 
 a {
-  color: $blue;
+  color: $greenBlue;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $greenBlue;
+    text-decoration: underline;
   }
 }
 
@@ -117,6 +116,7 @@ img {
 
 .date {
   font-style: italic;
+  font-size: 12pt;
   color: $gray;
 }
 
@@ -213,7 +213,6 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
@@ -242,7 +241,8 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   border-bottom: 1px solid $lightGray;
 }
 
@@ -252,6 +252,7 @@ nav {
 }
 
 .post {
+
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
@@ -279,8 +280,20 @@ nav {
 }
 
 footer {
-  padding: 20px 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.5em;
   text-align: center;
+  font-size: 16px;
+}
+
+.entry {
+  p {
+    margin-bottom: 0.5em;
+  }
+  margin-bottom: 1em;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

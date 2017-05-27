@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>Xuanrui's Blog</title>
 
     {% include meta.html %}
 
@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
@@ -19,11 +19,9 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">Xuanrui Qi</a></h1>
+            <p class="site-description"><a href="http://www.xuanruiqi.com">Xuanrui</a>'s blog about everything</p>
           </div>
 
           <nav>
@@ -38,13 +36,12 @@
       {{ content }}
     </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
+
+    <footer class="footer">
+      Xuanrui Qi &copy; 2017, all rights reserved.<br>
+      All posts licensed under <a href="https://creativecommons.org/licenses/by/4.0/legalcode">CC BY 4.0</a>
+    </footer>
+
 
     {% include analytics.html %}
   </body>

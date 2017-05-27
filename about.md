@@ -1,15 +1,15 @@
 ---
 layout: page
-title: About
+title:
 permalink: /about/
 ---
 
-Some information about you!
+This is [Xuanrui Qi](http://www.xuanruiqi.com)'s blog.
 
-### More Information
+### More about me
 
-A place to include any other types of information that you'd like to include about yourself.
+You could find more information about me at my homepage: [here](http://www.xuanruiqi.com) it is.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[me@xuanruiqi.com](mailto:me@xuanruiqi.com)

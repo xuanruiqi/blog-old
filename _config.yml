@@ -21,7 +21,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: 
+  github:
   instagram:
   linkedin:
   pinterest:
@@ -84,3 +84,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - "*.mdp"

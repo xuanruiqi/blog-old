@@ -1,0 +1,10 @@
+---
+layout: post
+author: Xuanrui
+title: Disqus
+location: Somerville, MA
+---
+
+Recently, I have been working on garbage collection in big data applications. Many big data applications 
+run on Java, and garbage collection pauses in Java applications are known to be an annoyance. Although 
+there have been a few proposed solutions to it, 
